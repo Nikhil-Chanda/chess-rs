@@ -8,7 +8,7 @@ use std::io::{self, Write};
 use game::Game;
 use utils::parse_square;
 use movegen::{ChessMove, is_legal_move};
-use piece::Color;
+// use piece::Color;
 
 fn main() {
     let mut game = Game::new();
